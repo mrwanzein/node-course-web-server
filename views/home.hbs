@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Some website</title>
+</head>
+<body>
+    
+    {{> header}}
+    <h2>{{ screamIt welcomeMsg }}</h2> {{!-- helpers can take interpolation injections as arguments --}}
+    <p>
+        Some useless text for testing purpose
+    </p>
+
+    {{> footer}} {{!-- for injecting partials template --}}
+</body>
+</html>

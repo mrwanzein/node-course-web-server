@@ -18,9 +18,9 @@ app.use((req, res, next) => { // loaded middleware in the req and res args
     next();
 });
 
-app.use((req, res, next) => {
+/* app.use((req, res, next) => {
     res.render('maintenance.hbs');
-});
+}); */
 
 hbs.registerHelper('getCurrentYear', () => { // injectable methods
     return new Date().getFullYear()

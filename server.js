@@ -54,7 +54,7 @@ app.get('/bad', (req, res) => {
 });
 
 app.get('/contact', (req, res) => {
-    res.render('about.hbs', {
+    res.render('contact.hbs', {
         pagetitle: 'Contact page'
     });
 });

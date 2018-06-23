@@ -54,7 +54,9 @@ app.get('/bad', (req, res) => {
 });
 
 app.get('/contact', (req, res) => {
-    res.render('about.hbs');
+    res.render('about.hbs', {
+        pagetitle: 'Contact page'
+    });
 });
 
 app.listen(port, () => {

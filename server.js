@@ -54,7 +54,7 @@ app.get('/bad', (req, res) => {
 });
 
 app.get('/contact', (req, res) => {
-    res.send();
+    res.render();
 });
 
 app.listen(port, () => {

@@ -53,6 +53,10 @@ app.get('/bad', (req, res) => {
     });
 });
 
+app.get('/contact', (req, res) => {
+    res.send();
+});
+
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
